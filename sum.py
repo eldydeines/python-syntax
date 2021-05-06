@@ -6,7 +6,11 @@ def sum_nums(nums):
 
     Should return (not print):
       10
-    """  
+    """
+    sum = 0
+    for num in nums:
+        sum = num + sum
+    return sum
 
     # Python has a built-in function `sum()` for this, but we don't
     # want you to use it. Please write this by hand.
